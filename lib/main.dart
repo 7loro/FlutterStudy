@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:toonflix/apps/lifecycleSampleApp.dart';
+import 'package:toonflix/apps/pomodoroSampleApp.dart';
 
 void main() {
   runApp(App());
@@ -8,6 +8,6 @@ void main() {
 class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return const CounterStatefulApp();
+    return const PomodoroSampleApp();
   }
 }
